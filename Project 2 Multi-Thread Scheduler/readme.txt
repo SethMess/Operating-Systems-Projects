@@ -1,4 +1,5 @@
-After invoking make, this project can be ran by passing an input text file as the second parameter, or by running the test cases in the tester file according to the README.md in that folder.
+After invoking 'make', this project can be ran by passing an input text file as the second parameter, or by running the test cases in the tester file according to the README.md in that folder.
+Example usage: ./mts input.txt
 
 Description of how the design evolved:
 My assignment implementation ended up being very similar to what I planned in the design document, the main difference was the 
