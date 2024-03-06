@@ -1,3 +1,5 @@
+This project can be ran by passing an input text file as the second parameter, or by running test cases in the tester file.
+
 My assignment implementation ended up being very similar to what I planned in the design document, the main difference was the 
 addition of one more condition variable that each thread signals once it is ready so that the main thread can check if all the 
 trains are loaded. Appart from that difference my assignment is very similar to the document, with three mutexes one for loading
