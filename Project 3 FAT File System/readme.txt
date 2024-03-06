@@ -1,5 +1,12 @@
 The executable files can be generated with the "make" command 
 
+There are 4 executables generated from this code each with a different behavior
+all executables take a disk image as the first parameter.
+disckinfo will print out information about the disk image passed as a parameter.
+discklist will list out the contents of the root direcotory of the disk image or of a given subdirectory if one is given as a second parameter.
+diskget will copy a file in the disk image to the local directory and takes the path of the file to copy as the second parameter and the name of what the copy should be called as the third parameter.
+
+Description of how the code is implemented:
 I made all my code in one .c so I could reuse my helper functions in the different parts. I used the memory mapped file approach
 to allow for easier access to directory entries and the superblock. In part 1 I cast the memory too a super block struct to get
 all its information, then looped through the FAT to count the number of each type of entry. In part 2 I find the sub directory if
